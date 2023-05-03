@@ -1,0 +1,46 @@
+.generate-otp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .generate-otp h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .generate-otp input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .generate-otp button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+  }
+  
+  .generate-otp button:hover {
+    background-color: #0069d9;
+  }
+  
+  .generate-otp .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .generate-otp .success {
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,46 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
